@@ -1,19 +1,46 @@
 footer {
-  background-image: url("https://yuli016.github.io/portfolio/img/pattern2.svg");
+  background-image: url("https://yuli016.github.io/yulipantoja/img/purple-diamond.svg");
   background-repeat: repeat-x;
-  background-image: ;
   background-attachment: fixed;
   background-size: cover;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 10px;
   z-index: -80;
-  bottom: 0;
-  position: fixed;
   width: 100%;
+  left: 0;
+  bottom: 0;
+  height: auto;
 }
 
 a.btn.btn-outline-light.btn-floating.m-1 {
     color: yellow;
     border-color: #f9f9f9;
     background-color: white;
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+a.btn.btn-outline-light.btn-floating.m-1:hover {
+    border-color: yellow;
+    background-color: yellow;
+}
+
+p.contact {
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  line-height: 1.6;
+  text-align: center;
+  font-weight: bold;
+}
+
+h2.contact {
+  color: #ffd700;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+element.style {
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: -10px;
 }

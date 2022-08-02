@@ -1,10 +1,10 @@
 .contact-form-wrapper {
-  padding: 100px 0;
+  padding: 0px 0;
 }
 
 .contact-form {
   padding: 30px 40px;
-  background-image: url("https://yuli016.github.io/portfolio/img/pattern2.svg");
+  background-image: url("https://yuli016.github.io/yulipantoja/img/purple-diamond.svg");
   background-repeat: repeat-x;
   background-attachment: fixed;
   background-size: cover;
@@ -46,8 +46,8 @@
 }
 
 .contact-form .form-control:focus {
-  border-color: #f33fb0;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px #f33fb0;
+  border-color: #ffd700;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.3), 0 0 8px #ffd700;
 }
 
 .contact-form .title {
@@ -67,16 +67,36 @@
 }
 
 .contact-form .submit-button-wrapper input {
-  border: none;
+  border: 2px solid #ffd700;
   border-radius: 4px;
-  background-color: #f23292;
-  color: white;
+  color: #4B0082;
   text-transform: uppercase;
   padding: 10px 60px;
-  font-weight: 500;
   letter-spacing: 2px;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  text-align: center;
+  font-weight: bold;
+  background-image: url("https://yuli016.github.io/yulipantoja/img/white-diamond.svg");
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .contact-form .submit-button-wrapper input:hover {
-  background-color: #ffd700;
+  border: 2px solid white;
+  background-image: url("https://yuli016.github.io/yulipantoja/img/yellow-diamond.svg");
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.p-3 {
+    padding: 1rem!important;
+    margin: -10px;
+}
+
+.border-white {
+    border-color: #ffd700;
 }

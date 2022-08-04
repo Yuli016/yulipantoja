@@ -33,6 +33,6 @@
   --mdb-gutter-y: 0;
 }
 
-.col-md-4 {
+.gridbox {
   border: 3px solid #ffd700;
 }

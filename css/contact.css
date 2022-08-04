@@ -1,3 +1,11 @@
+#messages {
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  text-decoration: underline 5px #ffd700;
+}
+
 .contact-form-wrapper {
   padding: 0px 0;
 }
@@ -92,11 +100,11 @@
   background-size: cover;
 }
 
-.p-3 {
-    padding: 1rem!important;
+.p-3s {
+    padding: 0.5rem;
     margin: -10px;
 }
 
-.border-white {
-    border-color: #ffd700;
+.border-whites {
+    border-color: #ffd700 2px solid;
 }

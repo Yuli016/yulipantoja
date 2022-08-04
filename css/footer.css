@@ -1,3 +1,99 @@
+.mt-5 {
+  margin-top: 1rem;
+}
+
+.mb-4s {
+    margin-bottom: 1rem;
+}
+
+.pt-4 {
+    padding-top: 0rem;
+}
+
+.mt-3s {
+    margin-top: 0.5rem;
+}
+
+#footer-nav {
+  color: white;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  line-height: 40px;
+  z-index: 10;
+}
+
+#footer-nav ul {
+  display: inline-block;
+  float: right;
+  list-style: none;
+  /* margin-right: 14px; */
+  margin-top: -2px;
+  text-align: right;
+  transition: transform 0.5s ease-out;
+  -webkit-transition: transform 0.5s ease-out;
+}
+
+#footer-nav li {
+  display: inline-block;
+}
+
+#footer-nav li a {
+  color: white;
+  display: block;
+  font-size: 0.8em;
+  height: 40px;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 0 4px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}
+
+#footer-nav li a:hover {
+  /* border-bottom: 1px solid rgb(28, 121, 184); */
+  color: #ffd700;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+}
+
+/* Animated Bottom Line */
+  #footer-nav li a:before, #footer-nav li a:after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    bottom: -1px;
+    background: #ffd700;
+  }
+
+  #footer-nav li a:before {
+    left: 0;
+    transition: 0.5s;
+  }
+
+  #footer-nav li a:after {
+    background: #ffd700;
+    right: 0;
+    /* transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1); */
+  }
+
+  #footer-nav li a:hover:before {
+    background: #ffd700;
+    width: 100%;
+    transition: width 0.5s cubic-bezier((0.22, 0.61, 0.36, 1));
+  }
+
+  #footer-nav li a:hover:after {
+    background: transparent;
+    width: 100%;
+    /* transition: 0s; */
+  }
+
+
 footer {
   background-image: url("https://yuli016.github.io/yulipantoja/img/purple-diamond.svg");
   background-repeat: repeat-x;
@@ -12,32 +108,33 @@ footer {
   height: auto;
 }
 
-a.btn.btn-outline-light.btn-floating.m-1 {
-    color: yellow;
-    border-color: #f9f9f9;
-    background-color: white;
-    width: 2.4rem;
-    height: 2.4rem;
-}
-
-a.btn.btn-outline-light.btn-floating.m-1:hover {
-    border-color: yellow;
-    background-color: yellow;
-}
-
-p.contact {
-  font-size: 17px;
-  font-family: 'Roboto', sans-serif;
+.fa-itch-io, .fa-github, .fa-linkedin, .fa-discord {
   color: white;
-  line-height: 1.6;
-  text-align: center;
-  font-weight: bold;
+  font-size: 20px;
+}
+
+i {
+  color: #ffd700;
+  font-size: 20px;
+}
+
+.btn-floating:hover {
+    border-radius: 50%;
+    padding: 0;
+    position: relative;
+    background-color: #ffd700;
 }
 
 h2.contact {
   color: #ffd700;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
+}
+
+p.contact {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
 }
 
 element.style {

@@ -28,6 +28,7 @@
         </div>
 
         <ul id="menu">
+          <li><a href="index.html">Home</a></li>
           <li><a href="works.html">Works</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="about.html">About</a></li>
@@ -54,54 +55,103 @@
 
       <div class="contact-form-wrapper d-flex justify-content-center">
 
-        <form class="contact-form" action="mailto:yulipantoja@gmail.com" method="GET">
+        <form class="contact-form" action="./php/email.php" method="POST">
 
           <h2 class="contact">Contact Me</h2>
-          <p class="contact">Feel free to contact me at any time!<br> Please add your name & other contact info in message.</p>
+          <p class="contact">Feel free to contact me.</p>
 
           <div>
-            <input type="text" class="form-control rounded border-white mb-3 form-input" id="name" placeholder="Subject" name="subject" required/>
+            <h2 id="messages">Name</h2>
+            <input type="text" class="form-control rounded border-whites mb-3 form-input" id="name" placeholder="Name" name="name" required/>
+          </div>
+
+          <div>
+            <h2 id="messages">Your Email</h2>
+            <input type="email" class="form-control rounded border-whites mb-3 form-input" id="email" placeholder="example@gmail.com" name="email" required/>
+          </div>
+
+          <div>
+            <h2 id="messages">Subject</h2>
+            <input type="text" class="form-control rounded border-whites mb-3 form-input" id="subject" placeholder="Subject" name="subject" required/>
           </div>
           <div>
-            <textarea id="message" class="form-control rounded border-white mb-3 form-text-area" rows="5" cols="30" placeholder="Your message" name="body" required></textarea>
+            <h2 id="messages">Message</h2>
+            <textarea id="message" class="form-control rounded border-whites mb-3 form-text-area" rows="5" cols="30" placeholder="Your message" name="message" required></textarea>
           </div>
           <div class="submit-button-wrapper">
             <input type="submit" value="Send">
           </div><br>
-
-          <p class="contact"><a class="btn btn-outline-light btn-floating m-1" role="button"><img src="./img/email.png"></a>yulipantoja@gmail.com</p>
-          <p class="contact"><a class="btn btn-outline-light btn-floating m-1" role="button"><img src="./img/phone-call.png"></a>(831) 783-8856</p>
-          <p class="contact"><a class="btn btn-outline-light btn-floating m-1" role="button"><img src="./img/discord.png"></a>Yuli#9470</p>
-
-
         </form>
       </div>
 
     </div>
 
     <footer class="text-center text-white">
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3s">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4s">
+              <!-- Content -->
+              <h2 class="footer-title"><i class="fas fa-cat"></i> Yuli Pantoja</h2>
+              <p class="contact"></p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4s">
+              <!-- Links -->
+              <h2 class="footer-title"> Links</h2>
+              <nav id="footer-nav">
+                <li><a href="index.html">Home</a></li><br>
+                <li><a href="works.html">Works</a></li><br>
+                <li><a href="contact.html">Contact</a></li><br>
+                <li><a href="about.html">About</a></li>
+              </nav>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4s">
+              <!-- Links -->
+              <h2 class="footer-title"> Contacts</h2>
+              <p class="contact"><i class="fas fa-envelope"></i> yulipantoja@gmail.com</p>
+              <p class="contact"><i class="fas fa-phone"></i> (831) 755-8856</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
       <!-- Grid container -->
-      <div class="container p-4 pb-0">
+      <div class="container pt-4">
         <!-- Section: Social media -->
-        <section class="mb-4">
+        <section class="mb-4s">
+
           <!-- Itch.io -->
-          <a class="btn btn-outline-light btn-floating m-1" href="https://yuli0.itch.io/" target="_Itch" role="button"><img src="./img/itch-button.svg"></a>
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://yuli0.itch.io/" target="_Itch" role="button" data-mdb-ripple-color="dark"><i class="fab fa-itch-io"></i></a>
 
           <!-- Github -->
-          <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/Yuli016" target="_Github" role="button"><img src="./img/github-button.svg"></a>
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://github.com/Yuli016" target="_Github" role="button" data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
 
           <!-- Linkedin -->
-          <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/yulitsa-pantoja/" target="_Linkedin" role="button"><img src="./img/linkedin.png"></a>
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.linkedin.com/in/yulitsa-pantoja/" target="_Linkedin" role="button" data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
 
         </section>
         <!-- Section: Social media -->
       </div>
       <!-- Grid container -->
+
       <!-- Copyright -->
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        <p class="contact">©2022 Yuli Pantoja</p>
-      </div>
-      <!-- Copyright -->
+        <div class="text-center p-3s">
+          © 2022 by Yuli Pantoja
+        </div>
+        <!-- Copyright -->
     </footer>
 
   </body>

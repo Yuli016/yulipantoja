@@ -1,3 +1,7 @@
+.leftside {
+  text-align: left;
+}
+
 .center-div {
   padding: 5vh 5vw;
   height: auto;
@@ -14,6 +18,14 @@ h1 {
 h2 {
   color: #4B0082;
   font-family: 'Montserrat', sans-serif;
+}
+
+h2.footer-title {
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  text-decoration: underline 5px #ffd700;
 }
 
 .flex-container {
@@ -38,11 +50,21 @@ h2 {
   p {
     font-size: 1.9vw;
   }
+  p.contact {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+  }
 }
 
 @media screen and (min-width: 601px) {
   .center-div {
   padding: 5vh 15vw;
+  }
+  p.contact {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
   }
 }
 

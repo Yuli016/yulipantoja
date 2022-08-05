@@ -37,6 +37,10 @@
     </head>
     <body>
 
+    <?php
+      include(" email.php ");
+    ?>
+
       <nav id="navbar" class="">
         <div class="nav-wrapper">
           <div class="logo">

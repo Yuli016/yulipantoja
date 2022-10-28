@@ -5,6 +5,11 @@
   padding: 0;
 }
 
+img#logo {
+  max-width: 32px;
+  height: 32px;
+}
+
 a {
   color: #ffd700;
   font-family: 'Montserrat', sans-serif;
